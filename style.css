@@ -1,0 +1,159 @@
+/*
+Theme Name: Polibodegas 1.0
+Theme URI: polibodegas.com.mx
+Description: Theme personalizado.
+Author: iceberg9.com
+Version: 1.0
+*/
+@import 'assets/bootstrap/css/bootstrap.min.css';
+/* Mobile Firts */
+html {
+  font-size: 10px;
+}
+body {
+  color: #3e4349;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 300;
+}
+a {
+  color: #2963db;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+a:hover {
+  color: #3e4349;
+  text-decoration: none;
+}
+#header-mobile {
+  background: #00287a;
+  width: 100%;
+}
+#header-mobile .logo {
+  padding: 1.2rem 0;
+}
+#header-mobile .menu-trigger {
+  padding: 1.8rem 0;
+  text-align: right;
+}
+#header-mobile nav {
+  background: #3e4349;
+  display: none;
+}
+#header-mobile nav ul {
+  margin: 0;
+  padding: 0;
+}
+#header-mobile nav ul li {
+  list-style: none;
+}
+#header-mobile nav ul li a {
+  color: #fff;
+  display: block;
+  font-size: 1.4rem;
+  padding: 1.2rem;
+}
+#mini-bar {
+  display: none;
+}
+header {
+  display: none;
+}
+footer {
+  background: #3e4349;
+  color: #fff;
+  padding: 2.5rem 0;
+  text-align: center;
+  width: 100%;
+}
+footer .address {
+  display: block;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  padding: 1rem 0 0 0;
+  width: 22rem;
+}
+footer .address-plus {
+  display: block;
+  font-size: 1rem;
+  margin: 0 auto;
+  padding: 1rem 0 0 0;
+  width: 29rem;
+}
+/* Tablets: Portrait */
+@media screen and (min-width: 768px) {
+  #header-mobile {
+    display: none;
+  }
+  #mini-bar {
+    background: #00287a;
+    display: block;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1.5rem 0;
+  }
+  #mini-bar .redes-sociales {
+    text-align: right;
+  }
+  #mini-bar .redes-sociales span {
+    display: inline-block;
+    margin-right: 1.5rem;
+  }
+  #mini-bar .redes-sociales a {
+    margin: 0.5rem;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  #mini-bar .redes-sociales a:hover {
+    opacity: 0.5;
+  }
+  header {
+    display: block;
+    padding: 2rem 0;
+  }
+  header nav {
+    padding: 1.1rem 0;
+    text-align: right;
+  }
+  header nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  header nav ul li {
+    display: inline-block;
+    padding: 0 2rem 0 0;
+  }
+  header nav ul li a {
+    color: #2963db;
+    font-size: 1.1rem;
+  }
+  header nav ul li:last-child {
+    padding: 0;
+  }
+}
+/* Tablets: Landscape */
+@media screen and (min-width: 992px) {
+  header nav {
+    padding: 2rem 0;
+  }
+  header nav ul li {
+    padding: 0 2.5rem 0 0;
+  }
+  header nav ul li a {
+    font-size: 1.4rem;
+  }
+}
+/* Desktops */
+@media screen and (min-width: 1200px) {
+  header nav {
+    padding: 2.5rem 0;
+  }
+  header nav ul li {
+    padding: 0 3.5rem 0 0;
+  }
+}

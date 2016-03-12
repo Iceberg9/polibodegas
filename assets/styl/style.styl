@@ -1,0 +1,27 @@
+/*!
+Theme Name: Polibodegas 1.0
+Theme URI: polibodegas.com.mx
+Description: Theme personalizado.
+Author: iceberg9.com
+Version: 1.0
+*/
+
+//@import '//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'
+//@import 'assets/css/normalize.css'
+@import 'assets/bootstrap/css/bootstrap.min.css'
+
+/* Mobile Firts */
+@import 'mobile.styl';
+
+/* Tablets: Portrait */
+//@media screen and (min-width: 481px)
+@media screen and (min-width: 768px)
+	@import 'tablet.styl'
+
+/* Tablets: Landscape */
+@media screen and (min-width: 992px)
+	@import 'desk-mini.styl';
+
+/* Desktops */
+@media screen and (min-width: 1200px)
+	@import 'desk-large.styl';
