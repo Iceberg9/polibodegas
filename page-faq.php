@@ -6,30 +6,92 @@
 ?>
 <?php get_header(); ?>
 
+<div class="ContenedorGeneral">
 
-<div class="container">
-	<div class="row">
-		<div class="col-xs-12">
-			<h3>Custom Post Type: Image custom</h3>
-			<img src="<?php echo CFS()->get('imagen'); ?>" class="img-responsive">
-			
-			<br><br>
+	<!-- Bloque Destacada -->
 
-			<h3>Preguntas Frecuentes</h3>
-			<ul>
-			<?php 
-				$fields = CFS()->get('Preguntas');
-				foreach ($fields as $field)
-				{
-				    echo '<li><strong>'.$field['pregunta'].'</strong></li>';
-				    echo '<ul><li>'.$field['respuesta'].'</li></ul>';
-				}
-			?>
-			</ul>
+	<div class="bloque-destacada" style="background: url(<?php echo CFS()->get('imagen_destacada'); ?>) top center no-repeat; background-size: cover">
+
+		<div class="des-destacada">
+
+			<h1><?php echo CFS()->get( 'titulo_destacado' ); ?></h1>
+
+			<p><?php echo CFS()->get( 'texto_destacado' ); ?></p>
+
 		</div>
+
 	</div>
+
+	<div class="container">
+
+		<!-- Preguntas Antes de Contratar -->
+
+		<div class="row">
+
+			<div class="col-xs-12">
+
+				<div class="preguntas-frecuentes">
+
+					<h2><?php echo CFS()->get( 'titulo_antes_de_contratar' ); ?></h2>
+
+					<div class="pregunta-texto">
+
+						<?php
+
+							$fields = CFS()->get( 'lista_de_preguntas_antes_de_contratar' );
+
+							foreach ( $fields as $field ) {
+
+								echo '<p class="pregunta-titulo"><span>+</span>' . $field['pregunta_antes_de_contratar'] . '</p>';
+
+								echo '<p class="pregunta-respuesta">' . $field['respuesta_antes_de_contratar'] . '</p>';
+
+							};
+
+						?>
+
+					</div>
+
+				</div>
+
+				<div class="preguntas-frecuentes">
+
+					<h2><?php echo CFS()->get( 'titulo_vigente' ); ?></h2>
+
+					<div class="pregunta-texto">
+
+						<?php
+
+							$fields = CFS()->get( 'lista_de_preguntas_vigente' );
+
+							foreach ( $fields as $field ) {
+
+								echo '<p class="pregunta-titulo"><span>+</span>' . $field['pregunta_contrato_vigente'] . '</p>';
+
+								echo '<p class="pregunta-respuesta">' . $field['respuesta_contrato_vigente'] . '</p>';
+
+							};
+
+						?>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+	
 </div>
 
-<!-- Template para Paginas -->
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+});
+	
+</script>
 
 <?php get_footer(); ?>
