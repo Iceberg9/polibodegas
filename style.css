@@ -68,11 +68,11 @@ header {
 .bloque-destacada .des-destacada {
   width: 100%;
   max-width: 400px;
-  top: 60%;
-  -webkit-transform: translateY(-40%);
-  -ms-transform: translateY(-40%);
-  -o-transform: translateY(-40%);
-  transform: translateY(-40%);
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
   margin: auto;
   padding: 1rem 2rem;
   -webkit-border-radius: 0px;
@@ -94,7 +94,7 @@ header {
 }
 .bloque-destacada .flecha {
   width: 100%;
-  bottom: 2px;
+  bottom: 2rem;
   position: absolute;
   text-align: center;
 }
@@ -144,6 +144,7 @@ header {
   text-align: center;
 }
 .secciones {
+  max-width: 94rem;
   background: none;
 }
 .secciones h2 {
@@ -157,6 +158,7 @@ header {
 .secciones p {
   font-size: 1.6rem;
   text-align: center;
+  color: #767676;
 }
 .secciones a {
   max-width: 28rem;
@@ -498,10 +500,18 @@ header {
   outline: none;
   border: 1px solid #2964db;
 }
+.contacto .contacto-formulario form select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url("http://dev04.iceberg9.com/wp-content/themes/polibodegas/assets/images/flecha-select.svg") no-repeat 98% center;
+}
 .contacto .contacto-formulario form textarea {
+  height: 15rem;
   resize: vertical;
 }
-.contacto .contacto-formulario form button {
+.contacto .contacto-formulario form input[type="submit"] {
+  width: auto;
+  margin: auto;
   padding: 1.5rem 4rem;
   border: none;
   -webkit-border-radius: 4px;
@@ -515,10 +525,10 @@ header {
   -ms-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-.contacto .contacto-formulario form button:focus {
+.contacto .contacto-formulario form input[type="submit"]:focus {
   outline: none;
 }
-.contacto .contacto-formulario form button:hover {
+.contacto .contacto-formulario form input[type="submit"]:hover {
   color: #3e4349;
   background: #f1f2f3;
 }
@@ -567,7 +577,7 @@ header {
   height: 8rem;
   width: 100%;
   margin-top: 7rem;
-  background: url("http://dev04.iceberg9.com/wp-content/uploads/2016/03/pattern.png");
+  background: url("http://dev04.iceberg9.com/wp-content/themes/polibodegas/assets/images/mascara-bodegas.svg");
 }
 footer {
   background: #3e4349;
@@ -647,6 +657,11 @@ footer .address-plus {
     height: 300px;
   }
   .bloque-destacada .des-destacada {
+    top: 60%;
+    -webkit-transform: translateY(-40%);
+    -ms-transform: translateY(-40%);
+    -o-transform: translateY(-40%);
+    transform: translateY(-40%);
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -662,6 +677,7 @@ footer .address-plus {
   }
   .secciones {
     min-height: 40rem;
+    margin: auto;
     margin-top: 15px;
     padding-top: 80px;
     text-align: right;
@@ -675,7 +691,7 @@ footer .address-plus {
     text-align: right;
   }
   .secciones p span {
-    width: 50%;
+    width: 70%;
     display: inline-block;
   }
   .secciones a {
@@ -683,11 +699,11 @@ footer .address-plus {
     display: inline-block;
   }
   #seccion-1 {
-    background: url("http://dev04.iceberg9.com/wp-content/uploads/2016/03/grafica-seccion-1.png") no-repeat left center;
+    background: url("http://dev04.iceberg9.com/wp-content/themes/polibodegas/assets/images/graphic-01.svg") no-repeat left center;
   }
   #seccion-2 {
     text-align: left;
-    background: url("http://dev04.iceberg9.com/wp-content/uploads/2016/03/grafica-seccion-2.png") no-repeat right center;
+    background: url("http://dev04.iceberg9.com/wp-content/themes/polibodegas/assets/images/graphic-02.svg") no-repeat right center;
   }
   #seccion-2 h2 {
     text-align: left;
@@ -696,14 +712,14 @@ footer .address-plus {
     text-align: left;
   }
   #seccion-2 p span {
-    width: 50%;
+    width: 70%;
     display: inline-block;
   }
   #seccion-2 a {
     display: inline-block;
   }
   #seccion-3 {
-    background: url("http://dev04.iceberg9.com/wp-content/uploads/2016/03/grafica-seccion-3.png") no-repeat left center;
+    background: url("http://dev04.iceberg9.com/wp-content/themes/polibodegas/assets/images/graphic-03.svg") no-repeat left center;
   }
   .cont-thumbnail {
     margin-top: 5rem;
@@ -748,6 +764,9 @@ footer .address-plus {
   }
   .bloque-destacada .flecha {
     bottom: 40px;
+  }
+  .secciones h2 {
+    font-size: 2.4rem;
   }
   .inicio-bloque-destacada {
     height: 450px;

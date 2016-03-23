@@ -20,6 +20,12 @@
 
 		</div>
 
+		<div class="flecha">
+
+			<img src="http://dev04.iceberg9.com/wp-content/uploads/2016/03/chevron-down.png" alt="">
+
+		</div>
+
 	</div>
 
 	<div class="container">
@@ -36,7 +42,7 @@
 
 					<div class="ubicacion-mapa">
 
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.670562794269!2d-99.16931694281828!3d19.42663494345366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff35f5bd1563%3A0x6c366f0e2de02ff7!2sEl+%C3%81ngel+de+la+Independencia!5e0!3m2!1ses-419!2smx!4v1458268250341" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15261.05946624437!2d-96.7090818!3d17.0106733!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6587e8c79013fcd0!2sPolibodegas!5e0!3m2!1ses-419!2smx!4v1458623318311" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
 						
 					</div>
 
@@ -54,7 +60,7 @@
 
 					<div class="ubicacion-consulta-direcciones">
 
-						<a href="#" target="_blank"><?php echo CFS()->get( 'consultar_direcciones' ); ?></a>
+						<a href="https://goo.gl/zIQ1RJ" target="_blank"><?php echo CFS()->get( 'consultar_direcciones' ); ?></a>
 						
 					</div>
 
@@ -80,7 +86,7 @@
 
 						<div class="img-disponibilidad">
 
-							<img class="img-responsive" src="<?php echo CFS()->get( 'imagen_disponibilidad' ); ?>" alt="">
+							<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/images/imagen_disponibilidad.svg" alt="">
 
 						</div>
 
@@ -98,35 +104,7 @@
 
 						<div class="contacto-formulario">
 
-							<form action="">
-
-								<input type="text" name="nombre" placeholder="<?php echo CFS()->get( 'nombre_contacto' ); ?>" required>
-
-								<input type="tel" name="telefono" placeholder="<?php echo CFS()->get( 'telefono_contacto' ); ?>" required>
-
-								<input type="email" name="email" placeholder="<?php echo CFS()->get( 'email_contacto' ); ?>" required>
-
-								<select required>
-
-									<?php
-
-										$fields = CFS()->get( 'lista_de_opciones_de_bodega' );
-
-										foreach ( $fields as $field ){
-
-											echo '<option value="' . $field['opciones_de_bodega'] . '">' . $field['opciones_de_bodega'] . '</option>';
-
-										};
-
-									 ?>
-									
-								</select>
-
-								<textarea placeholder="<?php echo CFS()->get( 'mensaje_contacto' ); ?>" required></textarea>
-
-								<button type="submit"><?php echo CFS()->get( 'boton_de_envio' ); ?></button>
-
-							</form>
+							<?php echo do_shortcode( '[contact-form-7 id="58" title="Contacto"]' ); ?>
 
 						</div>
 						

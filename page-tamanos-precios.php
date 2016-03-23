@@ -64,7 +64,7 @@
 
 					<div id="img-bodega-1" class="img-bodega">
 
-						<img src="<?php echo CFS()->get( 'imagen_bodega_uno' ) ?>" alt="" class="img-responsive visible-xs">
+						<img src="<?php bloginfo('template_directory'); ?>/assets/images/imagen_bodega_uno.svg" alt="" class="img-responsive visible-xs">
 
 					</div>
 
@@ -82,7 +82,7 @@
 
 					<div id="img-bodega-2" class="img-bodega">
 
-						<img src="<?php echo CFS()->get( 'imagen_bodega_dos' ) ?>" alt="" class="img-responsive visible-xs">
+						<img src="<?php bloginfo('template_directory'); ?>/assets/images/imagen_bodega_dos.svg" alt="" class="img-responsive visible-xs">
 
 					</div>
 
@@ -100,7 +100,7 @@
 
 					<div id="img-bodega-3" class="img-bodega">
 
-						<img src="<?php echo CFS()->get( 'imagen_bodega_tres' ) ?>" alt="" class="img-responsive visible-xs">
+						<img src="<?php bloginfo('template_directory'); ?>/assets/images/imagen_bodega_tres.svg" alt="" class="img-responsive visible-xs">
 
 					</div>
 
@@ -138,19 +138,19 @@
 
 						<div class="slide-img">
 
-							<img src="<?php echo CFS()->get( 'imagen_bodega_uno' ) ?>" alt="" class="img-responsive">
+							<img src="<?php bloginfo('template_directory'); ?>/assets/images/imagen_bodega_uno.svg" alt="" class="img-responsive">
 
 						</div>
 
 						<div class="slide-img">
 
-							<img src="<?php echo CFS()->get( 'imagen_bodega_dos' ) ?>" alt="" class="img-responsive">
+							<img src="<?php bloginfo('template_directory'); ?>/assets/images/imagen_bodega_dos.svg" alt="" class="img-responsive">
 
 						</div>
 
 						<div class="slide-img">
 
-							<img src="<?php echo CFS()->get( 'imagen_bodega_tres' ) ?>" alt="" class="img-responsive">
+							<img src="<?php bloginfo('template_directory'); ?>/assets/images/imagen_bodega_tres.svg" alt="" class="img-responsive">
 
 						</div>
 						
@@ -160,13 +160,13 @@
 
 						<div class="slide-nav slide-nav-prev">
 
-							<img src="<?php echo CFS()->get( 'navegador_prev' ) ?>" alt="">
+							<img src="<?php bloginfo('template_directory'); ?>/assets/images/navegador_prev.svg" alt="">
 							
 						</div>
 
 						<div class="slide-nav slide-nav-next">
 							
-							<img src="<?php echo CFS()->get( 'navegador_next' ) ?>" alt="">
+							<img src="<?php bloginfo('template_directory'); ?>/assets/images/navegador_next.svg" alt="">
 
 						</div>
 						

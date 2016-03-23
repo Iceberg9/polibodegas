@@ -20,6 +20,12 @@
 
 		</div>
 
+		<div class="flecha">
+
+			<img src="http://dev04.iceberg9.com/wp-content/uploads/2016/03/chevron-down.png" alt="">
+
+		</div>
+
 	</div>
 
 	<div class="container">
@@ -35,12 +41,6 @@
 					<h2><?php echo CFS()->get( 'titulo_servicios' ); ?></h2>
 
 					<p><?php echo CFS()->get( 'descripcion_general_servicios' ); ?></p>
-
-					<div class="servicios-mostrar visible-xs">
-
-						Mostrar servicios
-
-					</div>
 
 					<div class="servicios-oculto">
 
@@ -61,6 +61,12 @@
 							?>
 
 						</ul>
+
+					</div>
+
+					<div class="servicios-mostrar visible-xs">
+
+						Mostrar servicios
 
 					</div>
 
@@ -102,13 +108,13 @@
 
 							<div class="slide-servicios-nav slide-servicios-nav-prev">
 
-								<img src="<?php echo CFS()->get( 'navegador_blanco_prev' ) ?>" alt="">
+								<img src="<?php bloginfo('template_directory'); ?>/assets/images/navegador_blanco_prev.svg" alt="">
 								
 							</div>
 
 							<div class="slide-servicios-nav slide-servicios-nav-next">
 
-								<img src="<?php echo CFS()->get( 'navegador_blanco_next' ) ?>" alt="">
+								<img src="<?php bloginfo('template_directory'); ?>/assets/images/navegador_blanco_next.svg" alt="">
 								
 							</div>
 							

@@ -13,5 +13,15 @@ function register_my_menu() {
 }
 add_action( 'init', 'register_my_menu' );
 
+if( !is_admin()){
+
+	wp_deregister_script('jquery');
+
+	wp_register_script('jquery', ("//code.jquery.com/jquery-1.12.0.min.js"), false);
+
+	wp_enqueue_script('jquery');
+
+}
+
 
 ?>

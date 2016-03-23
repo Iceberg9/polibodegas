@@ -4,7 +4,7 @@
 
 	<!-- Bloque Destacada -->
 
-	<div class="inicio-bloque-destacada" style="background: url(http://dev04.iceberg9.com/wp-content/uploads/2016/03/bg-homepage@3x.png) top center no-repeat; background-size: cover">
+	<div class="inicio-bloque-destacada" style="background: url(http://dev04.iceberg9.com/wp-content/uploads/2016/03/bg-homepage.png) top center no-repeat; background-size: cover">
 
 		<div class="des-destacada">
 
@@ -36,7 +36,7 @@
 
 					<h2>Almacenamiento para todos</h2>
 
-					<img src="http://dev04.iceberg9.com/wp-content/uploads/2016/03/grafica-seccion-1.png" alt="" class="img-responsive visible-xs">
+					<img src="<?php bloginfo('template_directory'); ?>/assets/images/graphic-01.svg" alt="" class="img-responsive visible-xs">
 
 					<p><span>Encuentra en PoliBodegas el almacenamiento adecuado para tu necesidad. Contamos con diversos tamaños de bodegas  y precios, mira nuestro catálogo de bodegas disponibles.</span></p>
 
@@ -48,7 +48,7 @@
 
 					<h2>Rápido acceso a tu mini-bodega</h2>
 
-					<img src="http://dev04.iceberg9.com/wp-content/uploads/2016/03/grafica-seccion-2.png" alt="" class="img-responsive visible-xs">
+					<img src="<?php bloginfo('template_directory'); ?>/assets/images/graphic-02.svg" alt="" class="img-responsive visible-xs">
 
 					<p><span>Polibodegas se encuentra a 15 minutos del zócalo de la ciudad de Oaxaca, Oax. y a 5 minutos de su aeropuerto lo que permite un rápido y fácil acceso a las mini-bodegas.</span></p>
 
@@ -60,7 +60,7 @@
 
 					<h2>Tus bienes seguros y protegidos</h2>
 
-					<img src="http://dev04.iceberg9.com/wp-content/uploads/2016/03/grafica-seccion-3.png" alt="" class="img-responsive visible-xs">
+					<img src="<?php bloginfo('template_directory'); ?>/assets/images/graphic-03.svg" alt="" class="img-responsive visible-xs">
 
 					<p><span>Tus bienes no podrán estar en mejores manos. Nuestras minibodegas cuentan con CCTV, vigilancia 24/7 y accesos controlados.</span></p>
 

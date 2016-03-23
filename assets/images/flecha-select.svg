@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="15px" height="9px" viewBox="0 0 15 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>chevron-select</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Ubicación-y-Contacto" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ubicación-y-Contacto---lg" transform="translate(-1162.000000, -1781.000000)" fill="#3E4349">
+            <g id="content" transform="translate(150.000000, 660.000000)">
+                <g id="Formulario" transform="translate(0.000000, 833.000000)">
+                    <g id="Form" transform="translate(584.000000, 67.000000)">
+                        <g id="select" transform="translate(0.000000, 201.000000)">
+                            <path d="M441.07422,20.327691 C441.516032,19.8907697 442.230105,19.8907697 442.668657,20.327691 C443.108839,20.7646124 443.1121,21.4705339 442.668657,21.9074553 L436.29743,28.1515182 C435.857248,28.5884396 435.144806,28.5884396 434.701363,28.1515182 L428.330136,21.9074553 C427.889955,21.4721642 427.889955,20.7646124 428.330136,20.327691 C428.771949,19.8907697 429.486022,19.8907697 429.924573,20.327691 L435.501842,25.4484748 L441.07422,20.327691 Z" id="chevron-select"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

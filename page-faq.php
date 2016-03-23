@@ -20,6 +20,12 @@
 
 		</div>
 
+		<div class="flecha">
+
+			<img src="http://dev04.iceberg9.com/wp-content/uploads/2016/03/chevron-down.png" alt="">
+
+		</div>
+
 	</div>
 
 	<div class="container">

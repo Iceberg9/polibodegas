@@ -12,10 +12,8 @@
 	<link rel="apple-touch-icon" sizes="120x120" href="<?php bloginfo('template_directory'); ?>/assets/images/ios-120.png">
 	<link rel="apple-touch-icon" sizes="152x152" href="<?php bloginfo('template_directory'); ?>/assets/images/ios-152.png">
 	<link rel="apple-touch-icon" sizes="180x180" href="<?php bloginfo('template_directory'); ?>/assets/images/ios-180.png">
-	<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-	
-	<script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
-	<?php wp_head(); ?> 
+	<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>	
+	<?php wp_head(); ?>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>?v=01">
 	<script src="<?php bloginfo('template_directory'); ?>/assets/js/code.js"></script>
 </head>

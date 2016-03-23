@@ -99,8 +99,6 @@ $(document).ready(function() {
 
 			SlideActual = $('.cycle-slideshow').data("cycle.opts").currSlide;
 
-				
-
 			$('.thumbnail').css({'background':'#f1f2f3', 'color':'#3e4349'});
 
 			$('.img-bodega').css('max-height','0rem');
@@ -122,6 +120,12 @@ $(document).ready(function() {
 	$('.servicios-mostrar').on('click', function(){
 
 		$('.servicios-oculto').fadeToggle();
+
+		$(this).text(function(i, text){
+
+			return text === "Ocultar servicios" ? "Mostrar servicios" : "Ocultar servicios";
+
+		});
 
 	});
 
