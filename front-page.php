@@ -4,7 +4,7 @@
 
 	<!-- Bloque Destacada -->
 
-	<div class="inicio-bloque-destacada" style="background: url(http://dev04.iceberg9.com/wp-content/uploads/2016/03/bg-homepage.png) top center no-repeat; background-size: cover">
+	<div class="inicio-bloque-destacada" style="background: url(http://dev04.iceberg9.com/wp-content/uploads/2016/03/bg-homepage-tiny.png) top center no-repeat; background-size: cover">
 
 		<div class="des-destacada">
 
